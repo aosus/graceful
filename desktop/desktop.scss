@@ -53,6 +53,11 @@ img.avatar {
   #site-logo {
     max-height: 35px !important;
   }
+  
+  .wrap {
+    max-width: unset;
+    width: 90%;
+  }
 }
 
 .title-wrapper {
