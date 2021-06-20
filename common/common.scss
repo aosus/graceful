@@ -45,7 +45,8 @@ tbody {
   margin-bottom: 50px;
   background: rgba($secondary, 0.95);
   border-radius: 8px;
-  width: 75%;
+  width: 85%;
+  max-width: unset;
   padding: 3em 3em 5%;
   .archetype-regular & {
     min-height: 500px;
