@@ -217,3 +217,7 @@ nav.post-controls {
 .header-title span[dir="rtl"], .d-header-icons .d-icon {
   color: white;
 }
+
+.container.posts > .row {
+      width: calc(100vw - 25rem);
+}
