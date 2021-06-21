@@ -214,6 +214,6 @@ nav.post-controls {
   }
 }
 
-.header-title, .d-header-icons .d-icon {
-  color: white !important;
+.header-title, .d-header-icons .d-icon span[dir="rtl"] {
+  color: white;
 }
