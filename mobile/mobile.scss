@@ -192,9 +192,11 @@ div.cooked img:not(.thumbnail) {
 }
 
 #main-outlet {
-  width: 95% !important;
-  padding: 5px !important;
-  overflow: auto;
+    $padding: 5px;
+    width: calc(100% -  $padding) !important;
+    padding: calc($padding / 2) !important;
+    margin: 0;
+    overflow: auto;
 }
 
 .header-title span[dir="rtl"], .d-header-icons .d-icon, .title-wrapper {
